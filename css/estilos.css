@@ -1,0 +1,3 @@
+body{background-image: url(../aconcagua2.jpg);background-attachment: fixed;}
+#titulo{background-color: white}
+#titulo{display: flex;align-items: center;justify-content: center;}
