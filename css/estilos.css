@@ -1,3 +1,14 @@
-body{background-image: url(../aconcagua2.jpg);background-attachment: fixed;}
+body{background-image: url(../fondo.jpg);background-size: cover;}
 #titulo{background-color: white}
 #titulo{display: flex;align-items: center;justify-content: center;}
+nav{ display: flex;justify-content: space-around;}
+#whattsap{width: 40px; height: 40px}
+#instagram{width: 40px; height: 40px}
+#facebook{width: 40px; height: 40px}
+footer{display: flex;justify-content: space-around;align-items: center;}
+#Mapa{width: 56px; height: 50px}
+aside{display: flex;justify-content: space-around;align-items: center;}
+#logo{width: 170px;height: 110px}
+header{display: flex;justify-content: space-around;align-items: center;}
+#titulolocro{background-color: white}
+#videolocro{background-color: white}
