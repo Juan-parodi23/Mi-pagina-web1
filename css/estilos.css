@@ -11,5 +11,25 @@ aside{display: flex;justify-content: space-around;align-items: center;}
 #logo{width: 170px;height: 110px}
 header{display: flex;justify-content: space-around;align-items: center;}
 #titulolocro{background-color: white}
-#videolocro{background-color: white}
+#videolocro1{background-color: white}
 a:hover{color: red}
+@media (max-width: 500px)
+ { #imglocro { display: none;
+}
+}
+@media (min-width:756px)
+ { #goku { display: none;
+ }
+ }
+@media (min-width: 756px)
+ { #goku1 { display: none;
+}
+}
+@media (max-width: 500px)
+{ #videolocro { display: none;
+}
+}
+@media (max-width: 500px)
+{ #logo { display: none;
+}
+}
