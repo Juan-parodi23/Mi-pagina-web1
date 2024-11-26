@@ -1,4 +1,4 @@
-body{background-image: url(../fondo.jpg);background-size: cover;}
+body{background-image: url(../fondo8.jpg);background-size: cover;}
 #titulo{background-color: white}
 #titulo{display: flex;align-items: center;justify-content: center;}
 nav{ display: flex;justify-content: space-around;}
@@ -8,7 +8,7 @@ nav{ display: flex;justify-content: space-around;}
 footer{display: flex;justify-content: space-around;align-items: center;}
 #Mapa{width: 56px; height: 50px}
 aside{display: flex;justify-content: space-around;align-items: center;}
-#logo{width: 170px;height: 110px}
+#logo{width: 150px;height: 90px}
 header{display: flex;justify-content: space-around;align-items: center;}
 #titulolocro{background-color: white}
 #videolocro1{background-color: white}
@@ -33,3 +33,4 @@ a:hover{color: red}
 { #logo { display: none;
 }
 }
+.buscador{ display: flex;justify-content: space-around;}

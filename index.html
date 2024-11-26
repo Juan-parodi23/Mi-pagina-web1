@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title>¿Como Hacer Locro?</title>
     <link rel="stylesheet" href="./css/estilos.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   <body>
@@ -19,6 +20,7 @@
 <a href="https://web.whatsapp.com/">
 <img id="whattsap" src="whats.jpg" alt=""></a>
 </div>
+<button onclick="cambiarfondo1()">Modo Oscuro</button>
 </header>
 <nav>
 <a id="link1"href="contactos.html">Pagina de Contactos</a>
@@ -29,7 +31,12 @@
 <br>
 <a id="link4" href="https://thewinetime.com.ar/un-ranking-revelo-los-mejores-lugares-de-argentina-para-comer-locro/">Mejores Lugares para comer locro</a>
 </nav>
-<section>
+<div class="buscador">
+    <a href="#section">Nuetra receta u otras</a>
+    <a href="#aside">Videos explicativos</a>
+    <a href="#footer">Conocenos</a>
+  </div>
+<section id="section">
   <p id="parrafo" style="color: white">Sus orígenes se remontan a la época prehispánica. Precisamente, a los pueblos incas. Versátil, puede variar de acuerdo a la región y al país en que se elabore. El locro es un plato que puede variar y adaptarse a la disponibilidad de ingredientes presentes en cada región y/o país donde se prepare</p>
   <h2 style="color: brown" =>Lista de Ingredientes para su preparacion:</h2>
   <ul id="parrafo2" style="color: white"><li>2 tazas de maíz blanco remojado</li>
@@ -67,10 +74,60 @@
 <br>
 <br>
 
+<div class="container">
+<div class="row">
+  <div class="tarjeta 1 col-sm-12 col-md-6 col-lg-3" >
 
-<br>
+  <div class="card 1" >
+  <img src="asado.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Asado</h5>
+    <p class="card-text">Receta para asadito</p>
+    <a href="https://www.clarin.com/recetas/platos-principales/asado-a-la-parrilla_7_53G9XONKRp.html?srsltid=AfmBOorJJjCbjR_20TOx-FbjUVHbP8LQoqFprTi_CnC0sWWqrHYlg01c" class="btn btn-primary"> visitar</a>
+  </div>
+</div>
+</div>
+<div class="tarjeta 1 col-sm-12 col-md-6 col-lg-3" >
+
+  <div class="card 2" >
+  <img src="provoleta.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Provoleta</h5>
+    <p class="card-text">Receta para provoleta</p>
+    <a href="https://elgourmet.com/recetas/provoleta/" class="btn btn-primary"> visitar</a>
+  </div>
+</div>
+</div>
+<div class="tarjeta 1 col-sm-12 col-md-6 col-lg-3" >
+
+  <div class="card 3" >
+  <img src="morron.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Morrones a la parilla</h5>
+    <p class="card-text">Receta para morrones</p>
+    <a href="https://www.clarin.com/recetas/platos-principales/morrones-rellenos-a-la-parrilla_7_uq1BDhSi3q.html?srsltid=AfmBOoqcq8ysNnnmY9QkIYvddg9WDOhiIws427YG1jE3gp5WMbHHoiZe" class="btn btn-primary"> visitar</a>
+  </div>
+</div>
+</div>
+<div class="tarjeta 1 col-sm-12 col-md-6 col-lg-3" >
+
+  <div class="card 4" >
+  <img src="chimi.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Chimichurri</h5>
+    <p class="card-text">Receta para chimi</p>
+    <a href="https://www.paulinacocina.net/como-hacer-chimichurri-casero/11697" class="btn btn-primary"> visitar</a>
+  </div>
+</div>
+</div>
+</div>
+
+</div>
+
+
+
 </section>
-<aside class="">
+<aside id="aside">
   <div class="">
   <h3 id="titulolocro" style="color: brown">Foto de un locro</h3>
    <img id="goku" src="tabien.jpg" alt="goku">
@@ -82,9 +139,7 @@
 </div>
 </aside>
 <br>
-<footer>
-  <h4 id="titulodelmapa" style="color: brown">Mapa de la Region:</h4>
-<br>
+<footer id="footer">
 <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d724002.6378296709!2d-69.52933044452413!3d-32.54647612132582!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9687925500c38047%3A0x5234c15eaaa14869!2sAconcagua!5e0!3m2!1ses-419!2sar!4v1727210154320!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 <br>
 <div class="Mis Redes Sociales">
@@ -97,11 +152,11 @@
 
 </div>
 <p style="color: white">Soy Juan Ignacio, me gusta jugar y divertirme en internet!!!</p>
-
+<button onclick="cambiarfondo2()">Mas Info</button>
 </footer>
 
 
 
-
+<script src="./javascript.js/javascript.js"></script>
   </body>
 </html>
